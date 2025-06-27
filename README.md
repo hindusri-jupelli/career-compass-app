@@ -6,11 +6,10 @@ Career Compass is an AI-powered Streamlit web app that helps users explore caree
 
 ## 🔍 Features
 
-- 🧠 Takes user input on interests and skills to suggest relevant career roles
-- 🌍 Filter job listings by country or remote-only
-- 💰 Shows average salary insights using Glassdoor or Payscale APIs
-- 📚 Recommends online courses from Udemy or Coursera
-- ⚡ Simple, clean UI powered by Streamlit
+- 🧠 Takes user input on interests and skills to suggest relevant career roles  
+- 🌍 Filter job listings by country or remote-only  
+- 📚 Recommends online courses from Udemy or Coursera  
+- ⚡ Simple, clean UI powered by Streamlit  
 
 ---
 
@@ -20,7 +19,7 @@ Career Compass is an AI-powered Streamlit web app that helps users explore caree
 - **Backend**: Python  
 - **APIs Used**:
   - Job APIs (e.g., JSearch, RapidAPI)
-  - Udemy for online courses
+  - Coursera / Udemy for online courses
 
 ---
 
@@ -39,5 +38,6 @@ Career Compass is an AI-powered Streamlit web app that helps users explore caree
 
 Clone the repository:
 
+```bash
 git clone https://code.swecha.org/j_hindu_sri/jupelli-hindu-sri.git
-cd career-compass
+cd jupelli-hindu-sri
