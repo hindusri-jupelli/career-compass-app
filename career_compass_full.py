@@ -2,13 +2,15 @@ import streamlit as st
 import requests
 
 # --------------- API CONFIG ---------------- #
-RAPIDAPI_KEY = "bec5f09fmsh15acdd3ff8c7fd0p15abd5jsnf7f492b60b06"
+
+rapid_api_key = st.secrets["RAPIDAPI"]["API_KEY"]
+
 HEADERS = {
-    "X-RapidAPI-Key": RAPIDAPI_KEY,
+    "X-RapidAPI-Key": rapid_api_key,
     "X-RapidAPI-Host": "jsearch.p.rapidapi.com"
 }
 UDEMY_HEADERS = {
-    "X-RapidAPI-Key": RAPIDAPI_KEY,
+    "X-RapidAPI-Key": rapid_api_key,
     "X-RapidAPI-Host": "udemy-search-results.p.rapidapi.com"
 }
 
